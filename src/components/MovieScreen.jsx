@@ -12,7 +12,10 @@ const MovieScreen = ({movieList, page, setPage, watchList, addMovie}) => {
         <div className='page'>
             <h1>Jenny's Movie Theater</h1>
             <h3>Add a movie to your watchlist!</h3>
-            
+            <div className='btn-container'>
+                <button>Previous</button>
+                <button>Next</button>
+            </div>
             <div className='movie-container'>{movieDisplay}</div>
         </div>
     );
