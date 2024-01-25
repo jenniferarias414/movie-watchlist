@@ -27,6 +27,10 @@ const MovieScreen = ({movieList, page, setPage, watchList, addMovie, removeMovie
                 <button onClick={increment}>Next</button>
             </div>
             <div className='movie-container'>{movieDisplay}</div>
+            <div className='btn-container-bottom'>
+                <button onClick={decrement}>Previous</button>
+                <button onClick={increment}>Next</button>
+            </div>
         </div>
     );
 };

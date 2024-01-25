@@ -38,6 +38,14 @@ button {
   gap: 10px;
 }
 
+.btn-container-bottom {
+  margin-bottom: 15px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 .movie-container {
   width: 100%;
   display: flex;
